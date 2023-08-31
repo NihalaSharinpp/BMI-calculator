@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital@1&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    
+
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(./image/purple-pink-watercolor-texture-background_1083-169.avif);
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    min-width: 400px;
+    background: #fafafa;
+    border-radius: 38px;
+    height: 120%;
+    width: 120%;
+    left: -5%;
+    top: -5%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 160px -31px;
+    border-radius: 60px;
+    z-index: -1;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    padding: 30px 0;
+    margin-left: 100px;
+
+}
+
+.content {
+    padding: 0 40px;
+}
+
+.input {
+    padding: 5px 0;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+    #Age{
+        background-color: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 28px;
+    padding: 8px 20px;
+    }
+
+
+
+
+#height {
+    background-color: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 28px;
+    padding: 8px 20px;
+}
+
+#weight {
+    background-color: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 28px;
+    padding: 8px 20px;
+
+}
+
+ #calculate {
+    margin-left: 100px;
+    border-radius: 12px;
+    padding: 10px 0px;
+    color: #fff;
+    background-color: #3c89b6;
+    font-size: 16px;
+    width: 50%;
+    outline: none;
+    border: none;
+    text-align: center;
+
+}
+ #calculate:hover{
+    background: #0044ff;
+}
+
+.result {
+    /* margin-left: 100px; */
+    padding: 15px;
+    flex-direction: column;
+}
+.result p{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    /* margin-left: 60px; */
+}
+.result #result{
+    font-weight: 900;
+    font-size: 36px;
+    color: #355ac0;
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+    margin-left: 160px;
+}
+
+
+#comment {
+    color: #4f7df9;
+    font-weight: 800;
+}
